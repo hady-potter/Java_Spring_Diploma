@@ -4,7 +4,7 @@ public class Book {
 	private String name;
 	private int id;
 	private boolean isBorrowed;
-	protected int counter = 1000;
+	private int counter = 1000;
 
 	public Book(String name, int id) {
 		this.name = name;
