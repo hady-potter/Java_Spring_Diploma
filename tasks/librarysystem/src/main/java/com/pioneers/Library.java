@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Library {
-	List<Book> allBooks = new LinkedList<>();
+	private List<Book> allBooks = new LinkedList<>();
 
 
 	public void addBookToSystem(Book book) {
